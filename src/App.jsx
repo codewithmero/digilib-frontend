@@ -1,10 +1,15 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
-function App(props) {
+function App() {
   return (
-    <div>
-      <h1>Hindu Library</h1>
-    </div>
+    <React.Fragment>
+      <Header />
+      <Outlet />
+      <Footer />
+    </React.Fragment>
   );
 }
 

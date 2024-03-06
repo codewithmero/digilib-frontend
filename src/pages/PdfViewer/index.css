@@ -1,0 +1,89 @@
+div.react-pdf__Page__textContent.textLayer,
+div.react-pdf__Page__annotations.annotationLayer {
+  display: none;
+}
+
+.react-pdf__Page {
+  background: #272727 !important;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 142rem;
+  height: 68.9rem;
+} 
+
+.range-container {
+  display: flex;
+  padding: 1rem 1rem;
+  align-items: center;
+  background: #ccc;
+}
+
+.range-container > p {
+  width: 12rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #272727;
+  margin-bottom: 0;
+}
+
+input[type="range"] {
+  position: relative;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #aaa;
+  height: 0.5rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  background-color: #272727;
+  height: 2rem;
+  width: 2rem;   
+  margin-top: -0.9rem;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  border: 1px solid #999;
+  outline: 3px solid #999;
+  outline-offset: 0.125rem;
+}
+
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+  background: #aaa;
+  height: 0.5rem;
+}
+
+input[type="range"]::-moz-range-thumb {
+  border: none; 
+  border-radius: 0; 
+  background-color: #272727;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+input[type="range"]:focus::-moz-range-thumb {
+  border: 1px solid #999;
+  outline: 3px solid #999;
+  outline-offset: 0.125rem;     
+}
+
+/* PREV NEXT BTN */
+.prev-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev-next-ico {
+  color: #272727;
+  font-size: 3rem;
+}

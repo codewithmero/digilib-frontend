@@ -1,0 +1,43 @@
+.card {
+  width: 25rem;
+  height: auto;
+}
+
+.book-cover-container {
+  width: inherit;
+  height: 29.4rem;
+  background: #eee;
+
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  /* margin-bottom: 1.8rem; */
+  /* margin-right: 1.8rem; */
+  margin-bottom: 5rem;
+}
+
+.book-details {
+  text-align: center;
+  padding: 0.4rem;
+}
+
+.book-title,
+.book-author,
+.book-publisher {
+  margin: 0;
+}
+
+.book-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.book-author,
+.book-publisher {
+  font-size: 1.6rem;
+}
+
+/* MEDIA QUERY */
